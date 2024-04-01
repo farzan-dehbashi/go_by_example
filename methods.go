@@ -25,4 +25,5 @@ func main() {
 	rp := &r
 	fmt.Println(rp.getArea())
 	fmt.Println(rp.getVatar())
+
 }
