@@ -13,6 +13,6 @@ func sum(nums ...int) {
 
 func main() {
 
-	nums := []int{1, 2, 3, 4}
-	sum(nums...)
+	nums := []int{1, 2, 3}
+	sum(append(nums, nums...)...)
 }
